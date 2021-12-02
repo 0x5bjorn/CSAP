@@ -1,0 +1,17 @@
+#!/bin/bash
+NDIRS=5
+DEPTH=5
+RANDOM=12345
+
+for i in $(seq 1 $NDIRS); do
+    DIR=Dir$i
+    rm -rf $DIR
+    PTH=$DIR
+    for j in $(seq 1 $DEPTH); do
+	PTH="$PTH/Sub$j"
+	mkdir -p $PTH
+	for i in 1 2 3 4 5; do
+	    dd if=/dev/zero of=$PTH/File$i bs=1 count=$RANDOM 2> /dev/null
+	done
+    done
+done

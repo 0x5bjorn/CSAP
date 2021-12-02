@@ -1,0 +1,6 @@
+CP inputfile inputfile2
+RN inputfile2 in2
+LN in2 file1
+LN in2 file2
+UN file1
+RN file1 file1-rn

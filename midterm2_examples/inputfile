@@ -1,0 +1,9 @@
+Initial file data.
+This is inputfile to be read and written.
+Writer 4 waited around 0 seconds before writing
+Writer 2 waited around 0 seconds before writing
+Writer 1 waited around 0 seconds before writing
+Writer 1 waited around 0 seconds before writing
+Writer 1 waited around 0 seconds before writing
+Writer 1 waited around 4 seconds before writing
+Writer 1 waited around 4 seconds before writing
